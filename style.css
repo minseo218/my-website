@@ -1,0 +1,64 @@
+h1 {
+  color: rgba(221, 219, 86, 0.938);
+  font-size: 40px;
+}
+html {
+  background-color: thistle;
+}
+#top_bar {
+  position: fixed;
+  top: 15px;
+  height: 1px;
+  width: 1px;
+  background-color: slategray;
+}
+.ho {
+  position: fixed;
+  top: 15px;
+  display: flex;
+  height: 15px;
+  width: 75px;
+  justify-content: center;
+  color: white;
+  background-color: darksalmon;
+  border: 1px solid lightpink;
+}
+#first {
+  right: 165px;
+}
+#second {
+  right: 90px;
+}
+#third {
+  right: 15px;
+}
+body {
+  display: flex;
+  justify-content: space-between;
+  height: 1000vh;
+  margin: 10px;
+  padding: 30px;
+  background-color: lightyellow;
+}
+img {
+  height: 20vh;
+  width: 15vh;
+  transition: transform 5s;
+}
+img:hover {
+  transform: scale(15);
+}
+button:active {
+  background-color: pink;
+}
+input:hover {
+  background-color: rgb(252, 213, 220);
+}
+a:visited {
+  color: yellowgreen;
+}
+li::selection,
+span::selection {
+  color: purple;
+  background-color: yellow;
+}
